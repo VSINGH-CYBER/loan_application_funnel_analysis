@@ -1,25 +1,25 @@
 # Loan Application Funnel Analysis
 
-## 1. Project Overview
+## Project Overview
 Analyzed a simulated loan application workflow dataset to identify points of applicant drop-offs, stage-level bottlenecks, and process inefficiencies. Using SQL, the analysis focuses on where applications are delayed or lost in the funnel and what workflow refinements may increase loan conversions and improve operational workflow.
 
-## 2. Business Problem
+## Business Problem
 
-## 3. Objective
+## Objective
 
-## 4. Dataset Approach
+## Dataset Approach
 
-## 5. Workflow Design
+## Workflow Design
 
-## 6. Key Business Questions
+## Key Business Questions
 
-## 7. SQL Analsis Process
+## SQL Analsis Process
 
-## 8. Findings
+## Findings
 
-## 9. Recommendations
+## Recommendations
 
-## 10. Limitations
+## Limitations
 
-## 11. Skills Demonstrated
+## Skills Demonstrated
 
