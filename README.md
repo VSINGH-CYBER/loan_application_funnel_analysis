@@ -39,6 +39,11 @@ With this dataset structure we are able to thoroughly analyze our conversion los
 - Which workflow stages could we refine to improve the conversion rate in our application process?
 
 ## SQL Analsis Process
+The SQL analysis began with basic data validation, this is where I confirmed that the dataset was correctly imported, row count met expectations, and that the column fields contained realistic and internally consistent values. Once I validated the structure of the dataset, the analysis was conducted to focus on outcome distribution, stage level drop offs, application/funding conversion, and timing patterns.
+
+The workflow was analyzed by grouping applications across key workflow fields such as:
+
+
 
 ## Findings
 
