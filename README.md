@@ -18,18 +18,25 @@ The objective of this analysis was to:
 This project uses a simulated loan application workflow dataset that is designed to reflect a realistic lending funnel. The dataset presents key stages including submission, document collection, underwriting review, decisioning, and funding. A simulated dataset was used so the analysis could focus on funnel drop-off, stage delays, and workflow optimization opportunities in a controlled business scenario.
 
 ## Workflow Design
-This project is modeling a simplified loan application funnel analysis, the dataset used is curated to reflect a realistic lending workflow. Each application in this dataset begins in the submission stage, moving through documentation collection, underwriting review, decisioning, and funding. Depending on the applicant’s stage of progression, the application will have been approved, denied, withdrawn, actively pending, or failed to convert after an approval. 
+This project is modeling a simplified loan application funnel analysis, the dataset used is tailored to reflect a realistic lending workflow. Each application in this dataset begins in the submission stage, moving through documentation collection, underwriting review, decisioning, and funding. Depending on the applicant’s stage of progression, the application will have been approved, denied, withdrawn, actively pending, or failed to convert after an approval. 
 
 These are the workflow stages used in the dataset:
 
-* Application Submission
+* Application Submission Status
 * Documents Requested (Requested / Not Requested)
 * Documents Received (Received / Not Received)
 * Underwriting Review Status (Not Started, Pending, or Completed)
 * Decision Outcome (Approved, Denied, Withdrawn, or Pending)
 * Funding Outcome (Funded, Not Funded, or N/A)
 
+With this dataset structure we are able to thoroughly analyze our conversion loss rates post approval and what stage the drop off occurred at.
+
 ## Key Business Questions
+- What stage shows the most applicant drop offs in the loan application funnel?
+- Which loan products are experiencing the longest processing times?
+- Which customer segments are showing the longest delays during the application process?
+- How much application leakage is occurring in between approval and funding?
+- Which workflow stages could we refine to improve the conversion rate in our application process?
 
 ## SQL Analsis Process
 
