@@ -64,6 +64,8 @@ Core SQL techniques used:
 
 ## Findings
 
+### Data Visualization
+
 ## Recommendations
 
 ## Limitations
