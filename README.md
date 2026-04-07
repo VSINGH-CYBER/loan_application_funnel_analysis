@@ -76,8 +76,24 @@ Out of the 64 applications that reached approval, **11 were not converted as fun
 ### 4. Workflow friction differs by customer segment
 New customers experience the longest delays in **document collection**, while Returning customers face more moderate delays across both **document collection** and **underwriting review**. Existing Customers move through the funnel much faster overall, suggesting a lower-friction process and a more efficient path to decision.
 
-
 ### Data Visualization
+
+To support the SQL analysis, I created Tableau visuals focused on stage-level drop-off and processing-time comparisons across loan products and customer segments. These visuals help translate the SQL findings into a more stakeholder-friendly format and make it easier to identify where workflow friction is most concentrated.
+
+#### Loan Application Drop-Off by Stage
+![Loan Application Drop-Off by Stage](images/dropoff-by-stage.png)
+
+This chart shows that the largest non-completion drop-off points occur during **Underwriting Review** and **Document Collection**, reinforcing the conclusion that these are the strongest workflow bottlenecks in the funnel.
+
+#### Average Processing Time by Loan Type
+![Average Processing Time by Loan Type](images/avg-processing-by-loan-type.png)
+
+This visualization shows that **Small Business Loans** have the longest average processing times, supporting the finding that this product experiences the greatest workflow friction.
+
+#### Average Processing Time by Customer Segment
+![Average Processing Time by Customer Segment](images/avg-processing-by-customer-segment.png)
+
+This chart highlights that **New** and **Returning** customers experience longer average processing times than **Existing Customers**, suggesting segment-specific delay patterns within the application workflow.
 
 ## Recommendations
 
