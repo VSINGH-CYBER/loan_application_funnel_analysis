@@ -7,7 +7,6 @@ USE credit_analysis;
 -- a simulated loan application funnel dataset
 -- =====================================================
 
--- =====================================================
 -- 1. Data Validation
 -- =====================================================
 
@@ -19,7 +18,7 @@ FROM loan_workflow_data;
 SELECT COUNT(*) AS total_rows
 FROM loan_workflow_data;
 
--- =====================================================
+
 -- 2. Outcome Distribution Analysis
 -- =====================================================
 
@@ -39,7 +38,7 @@ FROM loan_workflow_data
 GROUP BY funded_status, decision_status
 ORDER BY total_count DESC;
 
--- =====================================================
+
 -- 3. Timing Analysis by Loan Type
 -- =====================================================
 
@@ -54,7 +53,7 @@ FROM loan_workflow_data
 GROUP BY loan_type
 ORDER BY avg_tot_prc_days DESC;
 
--- =====================================================
+
 -- 4. Timing Analysis by Customer Segment
 -- =====================================================
 
@@ -69,7 +68,7 @@ FROM loan_workflow_data
 GROUP BY customer_segment
 ORDER BY avg_tot_prc_days DESC;
 
--- =====================================================
+
 -- 5. Post-Approval Leakage Analysis
 -- =====================================================
 
@@ -84,7 +83,7 @@ WHERE decision_status = 'Approved'
   AND drop_off_stage != 'None'
 GROUP BY decision_status, funded_status, drop_off_stage;
 
--- =====================================================
+
 -- 6. Average Processing Time by Drop-Off Stage
 -- =====================================================
 
