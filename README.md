@@ -148,5 +148,13 @@ This project focuses primarily on pre-approval workflows stages, a deeper invest
 
 ## Skills Demonstrated
 
+* SQL querying, filtering, and aggregation
+* Workflow bottleneck and drop-off analysis
+* Funnel performance evaluation
+* Business process and operations analysis
+* Customer segment and product-level analysis
+* Translation of data findings into process improvement recommendations
+* Tableau-based data visualization
+* Analyst-style documentation and stakeholder communication
 
 
