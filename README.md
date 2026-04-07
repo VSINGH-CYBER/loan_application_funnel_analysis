@@ -81,7 +81,56 @@ New customers experience the longest delays in **document collection**, while Re
 
 ## Recommendations
 
+1. Improve underwriting review efficiency
+Since Underwriting Review was one of the largest non-completion drop-off points in our pre-approval process, this stage should be reviewed for workflow inefficiencies. Here are some potential improvement actions: 
+
+- Reassessing team capacity
+- Refining review handoff procedures
+- Optimizing review steps
+- Providing retraining where process inconsistency exists
+
+The exact solution would be dependent on the staffing structure, operating models, and budget constraints, but the underwriting stage should be treated as a priority for workflow optimization
+
+2. Investigate post-approval leakage deeper
+This application funnel analysis revealed that 17.19% of approved applications are not converting to funded loans, this shows that there is meaningful friction in the post approval stage of the loan application funnel. A follow up analysis should be conducted, focusing on specifically post-approval metrics to gain a better understanding on why applicants are failing to convert into funded loans. This could consist of reviewing:
+
+- Applicant communication after approval
+- Time it takes to fund the applicant
+- Documentation or verification steps still required after the approval
+- Customer abandonment after approval
+
+This would help us to be able to further investigate whether the issue is operational, communication-based, or related to process complexity after approval.
+
+3. Perform a deeper workflow analysis of Small Business Loan product
+Small business loans were found to have the longest average total processing time and higher delays in both the documentation collection and underwriting review stages of the funnel. This suggests that the Small Business Loan workflow may contain more points of friction or complexity than other products we are offering. 
+
+A deeper product specific analysis should be done to further understand the following:
+
+- Whether document requirements are excessive or unclear
+- Whether underwriting review should be more automated to increase time sensitivity
+- Whether workflow steps can be simplified without risking compliance or policy violations
+- This could help reduce the turn-around time while maintaining appropriate lending policies and expectations.
+
+4. Investigate segment-specific friction for New and Returning customers
+The analysis showed that New customers face the longest delays in the document collection stage, while Returning customers experience slower underwriting review than Existing Customers. This suggests that workflow friction differs by customer segment and could require more targeted process improvements.
+
+A follow-up analysis should be conducted to analyze:
+
+- Whether New Customers need clearer document instructions or onboarding support
+- Whether returning customers are being routed into slower review paths
+- Whether Existing Customers retain workflow efficiencies that could be applied to other segments to match velocity
+
+Improving the onboarding process and review stages for New and Returning customers may assist in reducing delays and improve conversion.
+
 ## Limitations
 
+This analysis is exploratory in nature and should not be relied on to come to any strong conclusions in a live production environment. This project was conducted on a simulated loan application workflow dataset containing a sample size of 120 records which is sufficient for demonstrating funnel analysis, stage-level delay patterns, and process-friction trends, but not large enough to support high-confidence operational conclusions.
+
+This analysis was conducted to identify workflow trends using the sample size and metrics available. A deeper analysis using a larger dataset should be conducted to reveal any additional workflow inefficiencies, points of friction, and validate whether these trends apply at an enterprise level scale, and isolate more precise root causes behind applicant drop off and delay. 
+
+This project focuses primarily on pre-approval workflows stages, a deeper investigation on a larger dataset with metrics for the post approval stage and individual stages should be conducted to find more precise points of friction. 
+
 ## Skills Demonstrated
+
+
 
