@@ -62,6 +62,53 @@ Core SQL techniques used:
 - CASE WHEN
 - Status-based filtering and segmentation
 
+## Sample Queries
+Count Applications by Decision Status
+
+```sql
+SELECT decision_status, COUNT(*) AS total_count
+FROM loan_workflow_data
+GROUP BY decision_status;
+```
+
+Count Applications by Drop-Off Stage
+
+```sql
+SELECT drop_off_stage, COUNT(*) AS total_count
+FROM loan_workflow_data
+GROUP BY drop_off_stage;
+```
+
+Average Processing Time by Loan Type
+
+```sql
+SELECT 
+    loan_type, 
+    ROUND(AVG(days_to_docs), 2) AS avg_d2doc,
+    ROUND(AVG(days_to_review), 2) AS avg_d2rev,
+    ROUND(AVG(days_to_decision), 2) AS avg_d2dec,
+    ROUND(AVG(total_processing_days), 2) AS avg_tot_prc_days
+FROM loan_workflow_data
+GROUP BY loan_type
+ORDER BY avg_tot_prc_days DESC;
+```
+
+Average Processing Time by Customer Segment
+
+```sql
+SELECT 
+    customer_segment, 
+    ROUND(AVG(days_to_docs), 2) AS avg_d2doc,
+    ROUND(AVG(days_to_review), 2) AS avg_d2rev,
+    ROUND(AVG(days_to_decision), 2) AS avg_d2dec,
+    ROUND(AVG(total_processing_days), 2) AS avg_tot_prc_days
+FROM loan_workflow_data
+GROUP BY customer_segment
+ORDER BY avg_tot_prc_days DESC;
+```
+
+For the full set of queries used in this analysis, see queries.sql
+
 ## Findings
 
 ### 1. The largest non-completion drop-off points occur during Underwriting Review and Document Collection stages
