@@ -63,7 +63,7 @@ Core SQL techniques used:
 - Status-based filtering and segmentation
 
 ## Sample Queries
-Count Applications by Decision Status
+### Count Applications by Decision Status
 
 ```sql
 SELECT decision_status, COUNT(*) AS total_count
@@ -71,7 +71,7 @@ FROM loan_workflow_data
 GROUP BY decision_status;
 ```
 
-Count Applications by Drop-Off Stage
+### Count Applications by Drop-Off Stage
 
 ```sql
 SELECT drop_off_stage, COUNT(*) AS total_count
@@ -79,7 +79,7 @@ FROM loan_workflow_data
 GROUP BY drop_off_stage;
 ```
 
-Average Processing Time by Loan Type
+### Average Processing Time by Loan Type
 
 ```sql
 SELECT 
@@ -93,7 +93,7 @@ GROUP BY loan_type
 ORDER BY avg_tot_prc_days DESC;
 ```
 
-Average Processing Time by Customer Segment
+### Average Processing Time by Customer Segment
 
 ```sql
 SELECT 
