@@ -1,0 +1,121 @@
+application_id,customer_segment,loan_type,loan_amount,application_status,documents_requested,documents_received,review_status,decision_status,funded_status,drop_off_stage,days_to_docs,days_to_review,days_to_decision,total_processing_days,application_channel,credit_band
+APP001,Returning,Personal Loan,9000,Submitted,Yes,Yes,Completed,Approved,Funded,None,6,5,1,12,Online,Prime
+APP002,New,Personal Loan,17400,Submitted,Yes,Yes,Completed,Approved,Funded,None,8,3,1,12,Online,Prime
+APP003,Existing Customer,Personal Loan,12800,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,2,3,2,7,Online,Prime
+APP004,Returning,Small Business Loan,39000,Submitted,Yes,Yes,Pending,Pending,N/A,Underwriting Review,7,9,0,16,Online,Prime
+APP005,New,Personal Loan,9400,Submitted,Yes,Yes,Completed,Approved,Funded,None,10,3,1,14,Phone,Subprime
+APP006,New,Personal Loan,8800,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,9,0,0,9,Branch,Subprime
+APP007,New,Auto Loan,20000,Submitted,Yes,Yes,Completed,Denied,N/A,None,6,2,1,9,Online,Near Prime
+APP008,Existing Customer,Small Business Loan,40000,Submitted,Yes,Yes,Completed,Approved,Funded,None,6,8,4,18,Online,Prime
+APP009,New,Auto Loan,44000,Submitted,Yes,Yes,Completed,Approved,Funded,None,6,2,1,9,Online,Near Prime
+APP010,Existing Customer,Personal Loan,6000,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,3,1,4,Branch,Prime
+APP011,Returning,Auto Loan,27000,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,4,5,2,11,Branch,Prime
+APP012,Existing Customer,Auto Loan,22500,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,3,2,2,7,Online,Near Prime
+APP013,Existing Customer,Small Business Loan,34000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,4,0,0,4,Online,Prime
+APP014,Existing Customer,Auto Loan,18000,Submitted,Yes,Yes,Completed,Denied,N/A,None,3,2,2,7,Online,Prime
+APP015,Existing Customer,Auto Loan,38000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,0,0,0,0,Phone,Prime
+APP016,Returning,Personal Loan,18100,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,4,0,0,4,Online,Prime
+APP017,New,Personal Loan,19100,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,8,0,0,8,Online,Near Prime
+APP018,Returning,Auto Loan,36000,Submitted,Yes,Yes,Completed,Approved,Funded,None,2,4,3,9,Online,Prime
+APP019,New,Small Business Loan,30000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,7,0,0,7,Online,Near Prime
+APP020,Returning,Small Business Loan,19000,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,7,5,15,Online,Subprime
+APP021,Returning,Personal Loan,12200,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,5,0,0,5,Phone,Prime
+APP022,New,Auto Loan,39000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,10,0,0,10,Online,Subprime
+APP023,New,Personal Loan,3400,Submitted,Yes,Yes,Completed,Approved,Funded,None,8,2,1,11,Online,Near Prime
+APP024,Existing Customer,Personal Loan,6700,Submitted,Yes,Yes,Completed,Approved,Funded,None,0,1,2,3,Online,Prime
+APP025,Existing Customer,Personal Loan,10000,Submitted,Yes,Yes,Completed,Approved,Funded,None,0,1,1,2,Online,Prime
+APP026,New,Personal Loan,8700,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,5,0,0,5,Online,Near Prime
+APP027,New,Personal Loan,15900,Submitted,Yes,Yes,Completed,Denied,N/A,None,4,3,1,8,Branch,Near Prime
+APP028,Existing Customer,Personal Loan,4900,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,3,2,5,Phone,Near Prime
+APP029,Returning,Personal Loan,3300,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,5,2,11,Online,Near Prime
+APP030,Returning,Personal Loan,2200,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,4,4,1,9,Online,Subprime
+APP031,New,Personal Loan,3000,Submitted,Yes,Yes,Completed,Approved,Funded,None,10,4,1,15,Phone,Near Prime
+APP032,Existing Customer,Personal Loan,6100,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,4,2,6,Phone,Near Prime
+APP033,New,Auto Loan,34000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,11,0,0,11,Phone,Subprime
+APP034,New,Small Business Loan,70000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,8,0,0,8,Online,Prime
+APP035,Existing Customer,Small Business Loan,32000,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,3,8,2,13,Online,Near Prime
+APP036,New,Personal Loan,10000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,8,0,0,8,Online,Subprime
+APP037,New,Personal Loan,13100,Submitted,Yes,Yes,Completed,Denied,N/A,None,9,2,2,13,Online,Subprime
+APP038,New,Small Business Loan,73000,Submitted,Yes,Yes,Completed,Denied,N/A,None,9,7,5,21,Online,Near Prime
+APP039,New,Auto Loan,45000,Submitted,Yes,Yes,Completed,Denied,N/A,None,6,5,3,14,Online,Near Prime
+APP040,Existing Customer,Personal Loan,7300,Submitted,Yes,Yes,Completed,Approved,Funded,None,1,1,2,4,Online,Near Prime
+APP041,New,Small Business Loan,30000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,5,0,0,5,Branch,Near Prime
+APP042,New,Auto Loan,14500,Submitted,Yes,Yes,Completed,Denied,N/A,None,8,5,1,14,Online,Subprime
+APP043,New,Auto Loan,16500,Submitted,Yes,Yes,Completed,Denied,N/A,None,7,3,1,11,Branch,Near Prime
+APP044,Returning,Small Business Loan,57000,Submitted,Yes,Yes,Completed,Denied,N/A,None,8,13,5,26,Online,Near Prime
+APP045,Existing Customer,Auto Loan,20000,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,3,1,7,Branch,Prime
+APP046,Existing Customer,Personal Loan,10500,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,2,2,4,Online,Prime
+APP047,New,Auto Loan,36500,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,9,0,0,9,Online,Subprime
+APP048,Existing Customer,Auto Loan,34000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,3,0,0,3,Online,Subprime
+APP049,Returning,Personal Loan,14400,Submitted,Yes,Yes,Completed,Approved,Funded,None,5,5,1,11,Online,Prime
+APP050,Existing Customer,Auto Loan,11500,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,3,2,9,Online,Prime
+APP051,Existing Customer,Small Business Loan,31000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,3,0,0,3,Branch,Prime
+APP052,Returning,Auto Loan,12500,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,5,1,10,Branch,Subprime
+APP053,Returning,Personal Loan,11400,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,4,1,9,Online,Near Prime
+APP054,Existing Customer,Auto Loan,34000,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,1,3,4,Online,Near Prime
+APP055,Returning,Personal Loan,16400,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,3,2,9,Branch,Prime
+APP056,New,Small Business Loan,55000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,8,0,0,8,Phone,Near Prime
+APP057,Returning,Auto Loan,44000,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,6,1,10,Branch,Near Prime
+APP058,Existing Customer,Auto Loan,34000,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,2,1,6,Online,Prime
+APP059,New,Personal Loan,16200,Submitted,Yes,Yes,Completed,Denied,N/A,None,10,1,1,12,Branch,Subprime
+APP060,New,Personal Loan,8200,Submitted,Yes,Yes,Completed,Approved,Funded,None,9,3,2,14,Online,Near Prime
+APP061,Existing Customer,Personal Loan,8400,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,2,1,3,Online,Near Prime
+APP062,Existing Customer,Personal Loan,17000,Submitted,Yes,Yes,Completed,Approved,Funded,None,1,3,1,5,Phone,Prime
+APP063,New,Small Business Loan,50000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,5,0,0,5,Online,Subprime
+APP064,Returning,Auto Loan,38000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,2,0,0,2,Online,Subprime
+APP065,New,Personal Loan,18100,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,4,0,0,4,Branch,Prime
+APP066,Existing Customer,Personal Loan,12600,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,3,1,7,Branch,Near Prime
+APP067,Existing Customer,Personal Loan,7400,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,3,2,5,Online,Prime
+APP068,New,Personal Loan,20000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,5,0,0,5,Online,Subprime
+APP069,Existing Customer,Auto Loan,22500,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,2,3,1,6,Online,Prime
+APP070,Returning,Personal Loan,12300,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,5,6,2,13,Phone,Near Prime
+APP071,New,Personal Loan,19200,Submitted,Yes,Yes,Pending,Pending,N/A,Underwriting Review,9,3,0,12,Branch,Near Prime
+APP072,Existing Customer,Personal Loan,15200,Submitted,Yes,Yes,Completed,Approved,Funded,None,0,3,2,5,Branch,Subprime
+APP073,New,Auto Loan,20000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,10,0,0,10,Online,Subprime
+APP074,Returning,Personal Loan,10200,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,2,0,0,2,Online,Subprime
+APP075,Returning,Auto Loan,36000,Submitted,Yes,Yes,Completed,Approved,Funded,None,2,7,1,10,Online,Near Prime
+APP076,Existing Customer,Personal Loan,19800,Submitted,Yes,Yes,Completed,Approved,Funded,None,0,4,1,5,Online,Prime
+APP077,Existing Customer,Small Business Loan,44000,Submitted,Yes,Yes,Completed,Approved,Funded,None,5,8,5,18,Phone,Near Prime
+APP078,Returning,Personal Loan,17300,Submitted,Yes,Yes,Completed,Approved,Funded,None,5,6,2,13,Online,Subprime
+APP079,Existing Customer,Personal Loan,9600,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,3,1,7,Branch,Near Prime
+APP080,Existing Customer,Personal Loan,11800,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,3,1,4,Online,Near Prime
+APP081,Returning,Personal Loan,14800,Submitted,Yes,Yes,Completed,Denied,N/A,None,2,5,1,8,Phone,Prime
+APP082,New,Auto Loan,19500,Submitted,Yes,Yes,Completed,Denied,N/A,None,7,4,3,14,Online,Subprime
+APP083,Existing Customer,Personal Loan,10100,Submitted,Yes,Yes,Completed,Approved,Funded,None,2,2,2,6,Branch,Subprime
+APP084,Existing Customer,Auto Loan,16000,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,1,0,0,1,Online,Near Prime
+APP085,New,Personal Loan,8200,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,10,4,1,15,Online,Near Prime
+APP086,Returning,Auto Loan,24500,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,4,2,10,Online,Prime
+APP087,Existing Customer,Personal Loan,12800,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,3,2,2,7,Branch,Prime
+APP088,New,Small Business Loan,40000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,7,0,0,7,Online,Near Prime
+APP089,Existing Customer,Small Business Loan,72000,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,5,4,13,Online,Near Prime
+APP090,Existing Customer,Personal Loan,11300,Submitted,Yes,Yes,Completed,Approved,Funded,None,2,3,2,7,Branch,Prime
+APP091,Existing Customer,Small Business Loan,66000,Submitted,Yes,Yes,Completed,Approved,Funded,None,4,9,4,17,Online,Subprime
+APP092,New,Personal Loan,8700,Submitted,Yes,Yes,Completed,Denied,N/A,None,8,4,2,14,Online,Near Prime
+APP093,New,Personal Loan,2600,Submitted,Yes,Yes,Completed,Denied,N/A,None,9,1,2,12,Branch,Subprime
+APP094,Existing Customer,Personal Loan,12400,Submitted,No,Not Needed,Pending,Pending,N/A,Underwriting Review,0,1,0,1,Online,Prime
+APP095,Existing Customer,Personal Loan,13600,Submitted,Yes,Yes,Completed,Approved,Funded,None,3,1,2,6,Online,Subprime
+APP096,Existing Customer,Personal Loan,19600,Submitted,Yes,Yes,Completed,Approved,Funded,None,2,1,2,5,Online,Prime
+APP097,New,Personal Loan,13600,Submitted,Yes,Yes,Pending,Pending,N/A,Underwriting Review,4,3,0,7,Online,Near Prime
+APP098,Existing Customer,Auto Loan,23000,Submitted,Yes,Yes,Completed,Denied,N/A,None,2,1,1,4,Online,Near Prime
+APP099,Existing Customer,Auto Loan,21000,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,4,1,5,Online,Subprime
+APP100,New,Personal Loan,12700,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,8,0,0,8,Online,Subprime
+APP101,Returning,Auto Loan,24000,Submitted,Yes,Yes,Pending,Withdrawn,N/A,Underwriting Review,7,0,0,7,Phone,Prime
+APP102,Returning,Small Business Loan,18000,Submitted,Yes,Yes,Completed,Approved,Funded,None,6,7,3,16,Phone,Subprime
+APP103,New,Personal Loan,18200,Submitted,Yes,Yes,Completed,Denied,N/A,None,6,4,2,12,Online,Subprime
+APP104,New,Auto Loan,45000,Submitted,Yes,Yes,Completed,Approved,Funded,None,8,5,3,16,Branch,Near Prime
+APP105,New,Personal Loan,19000,Submitted,Yes,Yes,Completed,Denied,N/A,None,4,1,1,6,Online,Subprime
+APP106,New,Auto Loan,33500,Submitted,Yes,Yes,Completed,Approved,Funded,None,5,4,3,12,Branch,Near Prime
+APP107,Existing Customer,Personal Loan,3300,Submitted,Yes,Yes,Completed,Approved,Funded,None,0,2,1,3,Phone,Near Prime
+APP108,Existing Customer,Auto Loan,37000,Submitted,Yes,Yes,Completed,Denied,N/A,None,1,2,2,5,Branch,Subprime
+APP109,Existing Customer,Personal Loan,10600,Submitted,No,Not Needed,Completed,Approved,Not Funded,Post-Approval,0,1,1,2,Online,Prime
+APP110,New,Auto Loan,20000,Submitted,Yes,Yes,Completed,Denied,N/A,None,4,3,1,8,Online,Subprime
+APP111,Existing Customer,Personal Loan,4000,Submitted,Yes,Yes,Completed,Approved,Not Funded,Post-Approval,3,1,2,6,Online,Near Prime
+APP112,Returning,Personal Loan,7600,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,4,0,0,4,Online,Near Prime
+APP113,Existing Customer,Auto Loan,26000,Submitted,Yes,Yes,Completed,Approved,Funded,None,2,1,3,6,Online,Prime
+APP114,New,Personal Loan,3900,Submitted,Yes,Yes,Completed,Denied,N/A,None,7,3,1,11,Phone,Near Prime
+APP115,New,Small Business Loan,25000,Submitted,Yes,Yes,Pending,Pending,N/A,Underwriting Review,6,5,0,11,Branch,Subprime
+APP116,New,Personal Loan,4000,Submitted,Yes,Yes,Completed,Approved,Funded,None,8,1,1,10,Online,Near Prime
+APP117,Existing Customer,Personal Loan,18500,Submitted,No,Not Needed,Completed,Approved,Funded,None,0,1,2,3,Branch,Prime
+APP118,Returning,Auto Loan,38500,Submitted,Yes,Yes,Pending,Pending,N/A,Underwriting Review,5,5,0,10,Branch,Subprime
+APP119,Returning,Auto Loan,27500,Submitted,Yes,No,Not Started,Withdrawn,N/A,Document Collection,6,0,0,6,Online,Near Prime
+APP120,New,Personal Loan,9300,Submitted,Yes,Yes,Completed,Denied,N/A,None,8,4,2,14,Online,Subprime
