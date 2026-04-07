@@ -86,7 +86,7 @@ To support the SQL analysis, I created Tableau visuals focused on stage-level dr
 This chart shows that the largest non-completion drop-off points occur during **Underwriting Review** and **Document Collection**, reinforcing the conclusion that these are the strongest workflow bottlenecks in the funnel.
 
 #### Average Processing Time by Loan Type
-![Average Processing Time by Loan Type](images/Average_Processing_Time_by_Loan_Segment.png)
+![Average Processing Time by Loan Type](images/Average_Processing_Time_by_Loan_Type.png)
 
 This visualization shows that **Small Business Loans** have the longest average processing times, supporting the finding that this product experiences the greatest workflow friction.
 
