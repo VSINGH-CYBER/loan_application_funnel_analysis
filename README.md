@@ -65,7 +65,7 @@ Core SQL techniques used:
 ## Findings
 
 ### 1. The largest non-completion drop-off points occur during Underwriting Review and Document Collection stages
-The 120-row dataset shows that the most significant non-completion stages are **Underwriting Review** and **Document Collection**; this implies that friction has occured in both before formal review begins and during the review process itself. This suggests the funnel is losing applicants both early and mid-process, making these stages the strongest candidates for workflow improvement.
+The 120-row dataset shows that the most significant non-completion stages are **Underwriting Review** and **Document Collection**; this implies that friction occurs before formal review begins and during the review process itself. This suggests the funnel is losing applicants both early and mid-process, making these stages the strongest candidates for workflow improvement.
 
 ### 2. Post-approval leakage is meaningful and should not be ignored
 Out of the 64 applications that reached approval, **11 were not converted as funded loans**, representing **~17.19% post-approval loss**. This indicates that approval alone does not guarantee conversion to a funded loan, and that friction continues even after credit decisions are complete.
